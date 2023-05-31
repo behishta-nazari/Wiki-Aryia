@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ /* :root{
+    --btn-bg :(#85D1A0);
+    --btn-purple-bg:(#6255A5);
+    --font-color:(rgb(31, 62, 114));
+    --content-bg:(#F9F7FF);
+} */
+.navbar{
+    background-color: #6255A5;
+}
+
+.navbar .nav-link{
+    color: #fff;
+}
+
+.navbar form{
+    margin-left: 2%;
+}
+.navbar input[type="search"]{
+    width: 300%;
+    border-radius: 0;
+    
+}
+.navbar .btn-search-side{
+    border-radius: 0;
+}
+.navbar form .btn{
+  background-color: #dbd6d6;
+}
+.navbar form .btn-write{
+    background-color: #7060c0;
+    color: #fff;
+}
+.navbar .form-select{
+    /* width: 170%; */
+}
+.navbar form option{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar form .btn-log{
+    width: 170%;
+    background-color: #dbd6d6;
+}
+form{
+    position: relative;
+}
+ span.wiki{
+    color: #fff;
+    background-color: #7060c0;
+    padding: 7px 10px;
+    border-radius: 50%;
+    
+ 
+ 
+}
+/* form span{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 9%;
+    background-color: rgba(0, 0, 0, 0.2);
+} */
+
+.carousel{
+    height: 50vh;
+}
+.carousel-inner{
+    height: 50vh;
+}
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-item {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5));
+}
+.card img{
+    max-height: 200px;
+}
+
+.title{
+    background-color: #dbd6d6;
+}
+.col-side{
+    background-color: #dbd6d6;
+}
